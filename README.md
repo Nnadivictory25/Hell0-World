@@ -1,2 +1,2 @@
-# Hell0-World
+# Hello-World
 First step in my Git journey
