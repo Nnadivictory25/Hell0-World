@@ -1,2 +1,2 @@
 # Hell0-World
-Firststep
+First step in my Git journey
