@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Intro </title>
+    <link rel="stylesheet"  href="stlye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+
+</head>
+<body>
+    <section class="header">
+<nav>
+    <a href="index.html"><img src="" ></a>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT ME</a></li>
+            <li><a href="">CONTACT ME</a></li>
+        </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()" ></i>
+</nav>
+
+<div class="text-box"> 
+    <h1>My Name Is Nnadi Victory</h1>
+    <p>Computer Science Student 💻 || Aspiring Website & <br> Software Developer 👩‍💻 || 16-Y-O entrepreneur 💰 <br> || Crypto Trader and Analyst 📊 || I love productivity 👷 || Currently learning HTML CSS and JavaScript 😉</p>
+    <a href="" class="hero-btn">View More</a>
+</div>
+ 
+    </section>
+ 
+
+    <section class="aboutme">
+        <h1>About Me</h1>
+        <p> Just a tip of me </p>
+
+        <div class="row">
+        <div class="aboutmecol">
+        <h3>Beginner</h3>
+        <p>Im just a beginner in this hoping to be great one day. </p>
+    </div>
+    <div class="aboutmecol">
+        <h3>Learner</h3>
+        <p>Im just a purpose driven human being trying to be better day by day with everyday learning and improvement. </p>
+    </div>
+    <div class="aboutmecol">
+        <h3>Productive</h3>
+        <p>One thing i love doing is trying out new things and adventures daily. </p>
+    </div>
+</div>
+        </section>
+
+
+
+        <section class="illustration"> 
+            <h1>I dont know what to say here</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus repudiandae beatae at assumenda, similique aspernatur dicta impedit tempora iure repellendus voluptas tempore veniam amet autem officiis, dolor reprehenderit. Deserunt, voluptatum.</p>
+
+            <div class="row"> 
+            <div class="illustration-col"> 
+                <img src="images/whatido1.png" >
+                <div class="layer">
+                    <h3>PROGAMMER</h3>
+                   </div>
+        </div>
+        <div class="illustration-col"> 
+            <img src="images/whatido.jpg" >
+            <div class="layer">
+                <h3>DEVELOPER</h3>
+               </div>
+    </div> 
+    <div class="illustration-col"> 
+        <img src="images/whatido2.png" >
+        <div class="layer">
+            <h3>HUSTLER</h3>
+           </div>
+</div>
+        </section>
+<!--------JavaScript for Toggle Menu---------->
+    <script>
+
+var navlinks = document.getElementById("navlinks");
+function showMenu(){
+    navlinks.style.right = "0";
+} 
+function hideMenu(){
+    navlinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
