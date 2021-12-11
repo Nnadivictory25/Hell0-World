@@ -31,6 +31,7 @@ nav{
     color: #fff;
     text-decoration: none;
     font-size: 13px;
+    font-weight: 600;
 
 }
 .nav-links ul li::after{
@@ -70,7 +71,7 @@ nav{
   font-weight: bold;
   padding: 10px 15px;
   text-align: center;
-  transition: 200ms;
+  transition: ease-in-out 0.2s;
   width: 100%;
   box-sizing: border-box;
   border: 0;
@@ -81,9 +82,9 @@ nav{
 }
 
 .hero-btn:hover{ 
-  outline: 20px;
-  background: #35d40d;
-  box-shadow: 0 0 0 8px rgba(102, 12, 204, 0.2), 0 3px 8px 0 rgba(165, 152, 152, 0.15);
+ box-shadow: 0 0 20px 0 white;
+ text-decoration: none;
+ font-weight: 900;
 }
 
 .hero-btn:disabled {
@@ -155,16 +156,25 @@ p{
 .aboutmecol{
     flex-basis: 31%;
     background:#fff3f3;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 5%;
     padding-top: 20px 12px;
     box-sizing: border-box;
-    transition: 0.7s;
+    transition: 0.5s;
+    display: block;
 
+}
+.aboutmecol h3{
+    font-weight: 500;
+    padding: 15px
+}
+.aboutmecol p{
+    font-weight: 700;
+    text-align: center;
 }
 h3{
     text-align:center;
-    font-weight: 600;
+    font-weight: 500;
     margin: 10px 0;
 }
 .aboutmecol:hover{
@@ -216,9 +226,138 @@ h3{
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-    transition: 0.5S;
+    opacity: 0;
+    transition: 0.5s;
 }
 .layer:hover h3{
-    bottom: 49%;
+    bottom: 80%;
     opacity: 1;
 }
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius:10px ;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width:100% ;
+    border-radius: 10px;
+}
+.facilities-col p{
+    padding: 0;
+    text-align: left;
+}
+.facilities-col h3{
+    margin: top 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.testimonials{
+    width: 80%;
+    margin-bottom: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 105px;
+}
+.testimonials-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: rgb(179, 211, 39);
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    color: black;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+.testimonials-col:hover{
+ background-color: rgb(238, 229, 229);
+ box-shadow: 10px 10px 20px 0px rgb(102, 5, 5);
+ outline: 20px;
+}
+.testimonials-col:hover .fa{
+    color: rgba(164, 8, 236, 0.925);
+}
+.testimonials-col img{
+    height: 70px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+
+}
+.testimonials-col p{
+    color: black;
+  font-size: 14px;
+  padding: 0;
+}
+.testimonials-col h3{
+    font-weight: 600;
+    text-align: left;
+    margin-top: 15px;
+}
+.testimonials-col .fa{
+    color: #f44336;
+}
+@media(max-width: 700px){
+    .testimonials-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
+.cta{
+     margin: 100px auto;
+     width: 80%;
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+     background-position: center;
+     background-size: cover;
+     border-radius: 10px;
+     text-align: center;
+     padding:100px 0 ;
+}
+.cta h1{
+    color: white;
+}
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa{
+    color: tomato;
+    margin: 0 13px;
+    cursor: pointer;
+    padding:18px 0 ;
+    font-weight: 600;
+    font-size: large;
+}
+.fa-heart{
+    color: tomato;
+    margin: 0 13px;
+}
+
+
+
+
+
+
+
+
