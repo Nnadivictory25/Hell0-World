@@ -17,14 +17,14 @@
 <nav>
     <a href="index.html"><img src="" ></a>
     <div class="nav-links" id="navlinks">
-        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <i class="fa fa-times" id="closer" onclick="hideMenu()"></i>
         <ul>
-            <li><a href="">HOME</a></li>
+            <li><a class="active" href="">HOME</a></li>
             <li><a href="">ABOUT ME</a></li>
             <li><a href="">CONTACT ME</a></li>
         </ul>
        </div>
-       <i class="fa fa-bars" onclick="showMenu()" ></i>
+       <i class="fa fa-bars" id="opener" onclick="showMenu()" ></i>
 </nav>
 
 <div class="text-box"> 
@@ -170,10 +170,10 @@
 
 var navlinks = document.getElementById("navlinks");
 function showMenu(){
-    navlinks.style.right = "0";
+    navlinks.style.display = "block";
 } 
 function hideMenu(){
-    navlinks.style.right = "-200px";
+    navlinks.style.display = "none";
 }
 </script>
 <script src="jquery.min.js"></script>
