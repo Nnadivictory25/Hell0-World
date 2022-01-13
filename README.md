@@ -1,2 +1,6 @@
 # Hello-World
-First step in my Git journey
+First step in my Git/html  journey
+
+THIS IS SUPPOSED TO BE MY PORTFOLIO SITE BUT ITS A LITTLE BIT MESSED UP 
+MORE UPDATE COMING IN THE FUTURE FOR SURE
+
